@@ -1,0 +1,160 @@
+.articulos{
+    text-align: center;
+    /*Alineado al centro*/
+    float: left;
+    background-color: rgb(72, 169, 182);
+    width: 60%;
+    margin: 16px  0 16px;
+}
+
+.articulos1{
+    text-align: center;
+    /*Alineado al centro*/
+    float: left;
+    background-color: rgb(160, 82, 112);
+    width: 55%;
+    margin: 16px  0 16px;
+}
+.secundario{
+    margin: 16px 0 16px;
+    text-indent:1em;
+    float: right;
+    width: 29%;
+    background-color: rgb(32, 121, 66);
+}
+.secundario4{
+    margin: 15px 0 15px;
+    float: right;
+    width: 29%;
+    background-color: beige;
+}
+.margen{
+    padding: 5px;
+   
+}
+.lista {
+    list-style: none;    
+}
+
+.ul1{
+    
+    list-style: none;/*saca los puntitos*/
+    /*display: inline-flex; alinear horizontalmente*/
+    text-align: center;
+    }
+.submenu{
+    display: inline-block;
+    margin-left: 20px;
+   
+    }
+ a{
+    text-decoration: none;
+    }
+.pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+    }
+
+#menu {
+    background: #CCCCCC;
+    padding: 1px;
+    text-align: center;
+    }
+#principal {
+    /*centrar menu superior*/
+    text-align: center;
+  
+   }
+    
+.contenedor {
+    background: #b9fffb;
+    border: 1px solid #999999;
+    padding: 0 20px 30px 5px;
+}
+
+
+.encabezado{
+    text-align: center;
+    margin: 40px 80px 16px 85px;
+    font-style: oblique;
+    
+}
+
+.foto1 { 
+    width: 100px;
+    height: 100px;
+    margin: 11px;
+    margin-left: 1px;
+    border: 2px solid black; 
+    float: left; 
+     }
+.foto { 
+    
+        margin: 9px 80px 16px 85px;
+        border: 2px solid black; 
+        float: left; 
+        }
+.foto2 { 
+    
+    margin: 29px 80px 16px 25px;
+    border: 2px solid black; 
+    float: left; 
+    }
+.foto3 { 
+    
+    margin: 9px 80px 16px 23px;
+    border: 2px solid black; 
+    float: left; 
+    }
+.foto4 { 
+    
+    margin: 9px 80px 16px 22px;
+    border: 2px solid black; 
+    float: left; 
+    }
+
+#agrupar {
+    width: 90%;
+    margin: 15px auto;
+    text-align: left;
+    }
+
+@media screen and (max-width: 800px) { 
+    section{
+            overflow: hidden;
+            width: 100%;
+        }
+    .foto1{
+            display: none;
+        }
+
+       
+    }
+@media screen and (min-width: 801px) {
+    
+    .foto2{
+        display: none;
+    }
+    
+   
+}
+a:hover{
+    color: rgb(238, 59, 160);
+    background:#0b0b0b;
+border:0.1em dashed #F60;
+border-radius: 0 0.5em 0 0.5em;
+transition: all 3s ease-in;
+}
+a:visited{
+    color: rgb(255, 0, 0);
+}
+a:active{
+    color: rgb(29, 37, 145);
+}
+a:link{
+    color: rgb(60, 0, 255);
+}
+    
+    
